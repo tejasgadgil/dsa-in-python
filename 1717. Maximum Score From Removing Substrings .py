@@ -40,3 +40,55 @@ class Solution:
 # O(n)
 # Algorithm Approach
 # Greedy algorithm with a Stack-based approach.
+
+
+# MY BRUTEFORCE APPROACH
+        # def lookFor(look):
+        #         i = len(s)-1
+        #         locateArr = list()
+                
+        #         while(i > 0):
+        #             if (s[i-1] + s[i]) == look :
+        #                 locateArr.append(i-1)
+        #             i -= 1
+                
+        #         return locateArr
+
+        # def dissolveAndScore(locateArr, add, score):
+        #     for index in locateArr:
+        #             s.pop(index)
+        #             s.pop(index)
+        #             score += add
+        #     return score
+
+        # if x > y :
+        #     look1 = "ab"
+        #     look2 = "ba"
+        #     score1 = x
+        #     score2 = y
+        # else :
+        #     look1 = "ba"
+        #     look2 = "ab"
+        #     score1 = y
+        #     score2 = x
+        
+        # s = list(s)
+        # score = 0
+        # # if x > y :
+        # count1 = 100
+        # count2 = 100
+        # while(count1 != 0 or count2 != 0) : 
+        # # repeat till none left of both
+        #     # till none left
+        #     while(count1 != 0) :
+        #         location1 = lookFor(look1)
+        #         count1 = len(location1)
+        #         score = dissolveAndScore(location1, score1, score)
+        #         # print(s, " ", score, " countab ", " ", count1)
+
+        #     # once
+        #     location2 = lookFor(look2)
+        #     count2 = len(location2)
+        #     score = dissolveAndScore(location2, score2, score)
+        #     # print(s, " ", score, " countba ", " ", count2)
+
